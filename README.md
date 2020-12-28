@@ -5,5 +5,5 @@ A Messenger automation bot that will check the subject availability status on FA
 git clone https://github.com/thieulong/FPT-Subject-Register-Bot.git
 
 # 2. Install required Python packages
-cd FPT-Subject-Register-Bot
+cd FPT-Subject-Register-Bot\n
 python -m pip install requirement.txt
