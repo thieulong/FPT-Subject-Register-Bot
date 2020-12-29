@@ -13,16 +13,17 @@ A Messenger automation bot that will check the subject availability status on FA
 - After that, you can download the lastest version [***here***](https://chromedriver.chromium.org/downloads) and remove the default one in this repo.   
 
 ## 4. Modify the config.json file
-Open the file *config.json* in this repo:  
-- fpt_email: Your FPT University account's email
-- fpt_password: Your FPT University account's password
-- subject_code: The subject code you want to register
-- option: Your register option (Register extra courses, Register to improve mark, Register to repeat a course)
-- facebook_email: The chatbot facebook email 
-- facebook_password: The chatbot facebook password
-- facebook_user: Your facebook username 
+Open the file *config.json* in this repo and replace these content with your information:  
+- `<Your FPT email password>`: Your FPT University account's email
+- `<Your FPT email password>`: Your FPT University account's password
+- `<Subject to register>`: The subject code you want to register
+- `<Your register option>`: Your register option (Register extra courses, Register to improve mark, Register to repeat a course)
+- `<Chatbot facebook email>`: The chatbot facebook email 
+- `<Chatbot facebook password>`: The chatbot facebook password
+- `<Your facebook username>`: Your facebook username 
 - attempt_limit: The maximun number of attempts you want to retry in case any error occured.
 - break_time: Time break between each loop
 
 ## 5. Run the script
 > `python bot.py`
+Any error occured, please check the log.txt file and post it here so we can discuss
