@@ -25,7 +25,9 @@ Open the file *config.json* in this repo and replace these content with your inf
 - `<Your facebook username>`: Your facebook username 
 - `<Attempt_limit>`: The maximun number of attempts you want to retry in case any error occured.
 - `<Break_time>`: Time break between each loop
+  
+**Note:** every modified content should be in Quotations marks (" ")
 
 ## 5. Run the script
-> `python bot.py`
+> `python bot.py`  
 Any error occured, please check the log.txt file.
