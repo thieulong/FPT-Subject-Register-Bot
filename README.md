@@ -1,6 +1,7 @@
 # FPT-Subject-Register-Bot
 A Messenger automation bot that will check the subject availability status on FAP website (FPT University) using Selenium.  
   
+To run this, you will need a facebook account that will represent your chatbot (clone account) If you hadn't have any, create one! Or you can just use your current account (not recommended because you can't recieve Messenger notifications)
 ## 1. Clone the project
 > `git clone https://github.com/thieulong/FPT-Subject-Register-Bot.git`  
 
@@ -14,16 +15,16 @@ A Messenger automation bot that will check the subject availability status on FA
 
 ## 4. Modify the config.json file
 Open the file *config.json* in this repo and replace these content with your information:  
-- `<Your FPT email password>`: Your FPT University account's email
-- `<Your FPT email password>`: Your FPT University account's password
-- `<Subject to register>`: The subject code you want to register
-- `<Your register option>`: Your register option (Register extra courses, Register to improve mark, Register to repeat a course)
-- `<Chatbot facebook email>`: The chatbot facebook email 
-- `<Chatbot facebook password>`: The chatbot facebook password
-- `<Your facebook username>`: Your facebook username 
-- attempt_limit: The maximun number of attempts you want to retry in case any error occured.
-- break_time: Time break between each loop
+- <Your FPT email password>: Your FPT University account's email
+- <Your FPT email password>: Your FPT University account's password
+- <Subject to register>: The subject code you want to register
+- <Your register option>: Your register option (Register extra courses, Register to improve mark, Register to repeat a course)
+- <Chatbot facebook email>: The chatbot facebook email 
+- <Chatbot facebook password>: The chatbot facebook password
+- <Your facebook username>: Your facebook username 
+- <attempt_limit>: The maximun number of attempts you want to retry in case any error occured.
+- <break_time>: Time break between each loop
 
 ## 5. Run the script
 > `python bot.py`
-Any error occured, please check the log.txt file and post it here so we can discuss
+Any error occured, please check the log.txt file.
