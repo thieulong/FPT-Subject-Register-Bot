@@ -26,7 +26,7 @@ Open the file *config.json* in this repo and replace these content with your inf
 - `<Attempt_limit>`: The maximun number of attempts you want to retry in case any error occured.
 - `<Break_time>`: Time break between each loop
   
-**Note:** every modified content should be in *Quotations marks* (" ")
+**Note:** every modified content should be in *Quotations marks* (" ") to remain string format.
 
 ## 5. Run the script
 > `python bot.py`  
