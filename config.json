@@ -10,6 +10,5 @@
     "facebook_email": "<Chatbot facebook email>",
     "facebook_password": "<Chatbot facebook password>",
     "facebook_user": "<Your facebook username>",
-    "attempt_limit": 5, // Maximum attempts you want to retry in case error occured
-    "breaktime": 1 // Time break (min)
-}
+    "attempt_limit": "<Attempt_limit>",
+    "breaktime": "<Break_time>" 
