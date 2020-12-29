@@ -1,5 +1,5 @@
 # FPT-Subject-Register-Bot
-A Messenger automation bot that will check the subject availability status on FAP website (FPT University) using Selenium.
+A Messenger automation bot that will check the subject availability status on FAP website (FPT University) using Selenium.  
 
 ## 1. Clone the project
 > `git clone https://github.com/thieulong/FPT-Subject-Register-Bot.git`  
@@ -8,5 +8,6 @@ A Messenger automation bot that will check the subject availability status on FA
 > `cd FPT-Subject-Register-Bot`  
 > `python -m pip install requirement.txt`  
 
-##3. Download chromedriver.exe 
-> Just in case the chromedriver.exe is outdated, you can download the lastest version [here](https://chromedriver.chromium.org/downloads)  
+## 3. Download chromedriver.exe 
+Just in case the chromedriver.exe is outdated, you can download the lastest version [here](https://chromedriver.chromium.org/downloads) and remove the default one in this repo.
+And also, check your browser version by following [this](https://www.businessinsider.com/what-version-of-google-chrome-do-i-have)
