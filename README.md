@@ -9,5 +9,5 @@ A Messenger automation bot that will check the subject availability status on FA
 > `python -m pip install requirement.txt`  
 
 ## 3. Download chromedriver.exe 
-Just in case the chromedriver.exe is outdated, you can download the lastest version [here](https://chromedriver.chromium.org/downloads) and remove the default one in this repo.
-And also, check your browser version by following [this](https://www.businessinsider.com/what-version-of-google-chrome-do-i-have)
+Just in case the chromedriver.exe is outdated, check your browser version by following [this](https://www.businessinsider.com/what-version-of-google-chrome-do-i-have). After that, you can download the lastest version [here](https://chromedriver.chromium.org/downloads) and remove the default one in this repo.  
+
