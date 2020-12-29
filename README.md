@@ -30,4 +30,5 @@ Open the file *config.json* in this repo and replace these content with your inf
 
 ## 5. Run the script
 > `python bot.py`  
+  
 Any error occured, please check the log.txt file.
