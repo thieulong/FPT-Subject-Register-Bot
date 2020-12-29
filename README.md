@@ -17,14 +17,14 @@ To run this, you will need a facebook account that will represent your chatbot (
 ## 4. Modify the config.json file
 Open the file *config.json* in this repo and replace these content with your information:  
 - `<Your FPT email password>`: Your FPT University account's email
-- *<Your FPT email password>*: Your FPT University account's password
-- <Subject to register>: The subject code you want to register
-- <Your register option>: Your register option (Register extra courses, Register to improve mark, Register to repeat a course)
-- <Chatbot facebook email>: The chatbot facebook email 
-- <Chatbot facebook password>: The chatbot facebook password
-- <Your facebook username>: Your facebook username 
-- <Attempt_limit>: The maximun number of attempts you want to retry in case any error occured.
-- <Break_time>: Time break between each loop
+- `<Your FPT email password>`: Your FPT University account's password
+- `<Subject to register>`: The subject code you want to register
+- `<Your register option>`: Your register option (Register extra courses, Register to improve mark, Register to repeat a course)
+- `<Chatbot facebook email>`: The chatbot facebook email 
+- `<Chatbot facebook password>`: The chatbot facebook password
+- `<Your facebook username>`: Your facebook username 
+- `<Attempt_limit>`: The maximun number of attempts you want to retry in case any error occured.
+- `<Break_time>`: Time break between each loop
 
 ## 5. Run the script
 > `python bot.py`
