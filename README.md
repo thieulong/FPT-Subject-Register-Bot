@@ -2,6 +2,7 @@
 A Messenger automation bot that will check the subject availability status on FAP website (FPT University) using Selenium.  
   
 To run this, you will need a facebook account that will represent your chatbot (clone account) If you hadn't have any, create one! Or you can just use your current account (not recommended because you can't recieve Messenger notifications)
+  
 ## 1. Clone the project
 > `git clone https://github.com/thieulong/FPT-Subject-Register-Bot.git`  
 
