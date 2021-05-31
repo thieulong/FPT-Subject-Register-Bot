@@ -32,3 +32,5 @@ Open the file *config.json* in this repo and replace these content with your inf
 > `python3 subject_register.py`  
   
 Any error occured, please check the log.txt file.
+  
+**Note:** your clone Facebook account must be friend with your main Facebook account in order to send message better. 
