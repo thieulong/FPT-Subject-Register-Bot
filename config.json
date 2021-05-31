@@ -1,14 +1,16 @@
 {
-    "chrome_driver_linux": "<Path to chromedriver>",
-    "chrome_driver_window": "<Path to chromedriver.exe>",
+    "chrome_driver_linux": "/usr/bin/chromedriver",
+    "chrome_driver_window": "C:\\Users\\Lorca\\AppData\\Local\\Google\\Chrome\\chromedriver.exe",
+    "chromedriver_mac": "/usr/local/bin/chromedriver",
     "fap_url": "http://fap.fpt.edu.vn/",
-    "fpt_email": "<Your FPT email>",
-    "fpt_password": "<Your FPT email password>",
-    "subject_code": "<Subject to register>",
-    "option": "<Your register option>",
+    "fpt_email": "longptse150885@fpt.edu.vn",
+    "fpt_password": "tryhardfailharder",
+    "subject_code": "ĐTR102",
+    "option": "Register extra courses",
     "messenger_url": "https://www.messenger.com/login/",
-    "facebook_email": "<Chatbot facebook email>",
-    "facebook_password": "<Chatbot facebook password>",
-    "facebook_user": "<Your facebook username>",
-    "attempt_limit": "<Attempt_limit>",
-    "breaktime": "<Break_time>" 
+    "facebook_email": "lorcaphan@gmail.com",
+    "facebook_password": "idontevenknowwhatthepasswordis",
+    "facebook_user": "Thieu Long",
+    "attempt_limit": 5,
+    "breaktime": 1
+}

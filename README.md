@@ -8,7 +8,7 @@ To run this, you will need a facebook account that will represent your chatbot (
 
 ## 2. Install required Python packages
 > `cd FPT-Subject-Register-Bot`  
-> `python -m pip install requirement.txt`  
+> `python -m pip install requirements.txt`  
 
 ## 3. Download chromedriver.exe (Not necessary)
 - Just in case the chromedriver.exe is outdated, check your browser version by following [***these steps***](https://www.businessinsider.com/what-version-of-google-chrome-do-i-have).  
@@ -29,6 +29,6 @@ Open the file *config.json* in this repo and replace these content with your inf
 **Note:** every modified content should be in *Quotations marks* (" ") to remain string format.
 
 ## 5. Run the script
-> `python bot.py`  
+> `python3 subject_register.py`  
   
 Any error occured, please check the log.txt file.
