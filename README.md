@@ -29,6 +29,17 @@ Open the file *config.json* in this repo and replace these content with your inf
 **Note:** every modified content should be in *Quotations marks* (" ") to remain string format.
 
 ## 5. Run the script
+Open the file *subject_register.py* and replace line 12 based on your current device OS (Operating System)
+  
+- Window  
+> `driver = webdriver.Chrome(config['chrome_driver_window'])`
+- Linux
+> `driver = webdriver.Chrome(config['chrome_driver_linux'])`
+- MacOS
+> `driver = webdriver.Chrome(config['chrome_driver_mac'])`
+  
+That's it, now execute the following command in the terminal (where this directory at)
+
 > `python3 subject_register.py`  
   
 Any error occured, please check the log.txt file.
